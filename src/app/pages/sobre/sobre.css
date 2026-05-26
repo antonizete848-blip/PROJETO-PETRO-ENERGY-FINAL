@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0B1220;
+  color: #1f455e;
+}
+
+.about {
+  padding: 120px 8%;
+  background: #0B1220;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-container {
+  display: contents; 
+}
+
+.about-content h2 {
+  font-size: 2.8rem;
+  margin: 0 0 20px 0;
+  line-height: 1.2;
+  color: #3d6c9b;
+  text-align: left;
+}
+
+.about-content p {
+  color: #95b0c2;
+  line-height: 1.8;
+  max-width: 100%;
+  text-align: left;
+  margin: 0;
+}
+
+.about-content button:hover {
+  transform: translateY(-3px);
+}
+
+.about-image {
+  height: 500px;
+  border-radius: 20px;
+  background: url('/assets/images/sobre.jpg') center/cover;
+  box-shadow: 0 30px 60px rgba(21, 41, 78, 0.4);
+  width: 100%;
+}
+
+.services {
+  padding: 120px 8%;
+  text-align: center;
+  background: #0F172A;
+}
+
+.services h2 {
+  font-size: 2.8rem;
+  margin: 20px 0 60px;
+  color: hsl(210, 44%, 42%); 
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: #1E293B;
+  padding: 40px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(15, 76, 92, 0.15);
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.03);
+  background: #0F4C5C;
+  box-shadow: 0 18px 40px rgba(15, 76, 92, 0.4);
+  border-color: #0F4C5C;
+}
+
+.card i {
+  font-size: 2rem;
+  color: #60A5FA;
+  margin-bottom: 15px;
+  transition: 0.3s ease;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #F8FAFC;
+  transition: 0.3s ease;
+}
+
+.card p {
+  color: #CBD5E1;
+  transition: 0.3s ease;
+}
+
+.card:hover i {
+  color: #E0F2FE;
+}
+
+.card:hover h3,
+.card:hover p {
+  color: white;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.12),
+    transparent
+  );
+  transition: 0.6s;
+}
+
+.card:hover::before {
+  left: 100%;
+}
+
+.differentials {
+  padding: 120px 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  background: #0B1220;
+}
+
+.diff-image {
+  height: 500px;
+  background: url('/assets/images/sobre1.jpg') center/cover;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.diff-content h2 {
+  font-size: 2.8rem;
+  margin: 20px 0;
+  color: hsl(210, 44%, 42%);
+}
+
+.diff-content p {
+  color: #95B0C2;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.list {
+  margin-top: 30px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  color: #CBD5E1;
+  font-size: 1rem;
+}
+
+.item i {
+  color: #60A5FA;
+  font-size: 1.2rem;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 968px) {
+  .about, 
+  .differentials {
+    grid-template-columns: 1fr; 
+    gap: 40px;
+    padding: 60px 8%;
+  }
+  .about-content h2,
+  .about-content p,
+  .diff-content h2,
+  .diff-content p {
+    text-align: center;
+  } 
+  .about-image,
+  .diff-image {
+    height: 350px;
+  }
+}

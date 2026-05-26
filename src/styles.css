@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  background: #F8FAFC;
+  color: #1F2937;
+}
+
+a{
+  transition: 0.3s;
+}

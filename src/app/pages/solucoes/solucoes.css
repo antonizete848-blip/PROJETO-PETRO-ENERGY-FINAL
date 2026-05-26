@@ -1,0 +1,68 @@
+.solucoes{
+  min-height:100vh;
+  padding:140px 8%;
+  background:#0F172A;
+  color:white;
+}
+
+.solucoes-topo{
+  max-width:850px;
+  margin:0 auto 80px;
+  text-align:center;
+}
+
+.solucoes-topo span{
+  color:#60A5FA;
+  font-weight:800;
+  letter-spacing:6px;
+  text-transform:uppercase;
+}
+
+.solucoes-topo h1{
+  color:#60A5FA;
+  font-size:4rem;
+  line-height:1.1;
+  margin:25px 0;
+}
+
+.solucoes-topo p{
+  color:#CBD5E1;
+  line-height:2;
+  font-size:1.1rem;
+}
+
+.cards{
+  max-width:1100px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+}
+
+.card{
+  background:#1E293B;
+  padding:40px;
+  border-radius:24px;
+  border:1px solid rgba(255,255,255,0.05);
+}
+
+.card h2{
+  color:#60A5FA;
+  margin-bottom:18px;
+}
+
+.card p{
+  color:#CBD5E1;
+  line-height:1.9;
+}
+/* RESPONSIVIDADE */
+@media(max-width:900px){
+
+  .cards{
+    grid-template-columns:1fr;
+  }
+  .solucoes-topo h1{
+    font-size:3rem;
+  }
+
+}

@@ -1,0 +1,38 @@
+{
+  "servicos": [
+    {
+      "id": 1,
+
+      "etiqueta": "Indústria e petróleo",
+
+      "titulo": "Exploração de Petróleo",
+
+      "descricao": "Soluções modernas para exploração, produção e eficiência energética no setor petrolífero.",
+
+      "conteudo": "Atuamos no desenvolvimento de tecnologias e processos voltados para a exploração e produção de petróleo, buscando maior eficiência operacional, segurança e sustentabilidade em todas as etapas da operação.",
+
+      "beneficiosTitulo": "Benefícios para o setor",
+
+      "beneficios": "Nossas soluções ajudam empresas petrolíferas a aumentar a produtividade, reduzir custos operacionais e otimizar processos industriais com foco em inovação e responsabilidade ambiental.",
+
+      "processoTitulo": "Como funciona o serviço",
+
+      "processo": "Realizamos análise técnica da operação, identificamos oportunidades de melhoria e desenvolvemos estratégias para modernizar processos de extração, transporte e gestão energética.",
+
+      "resultadoTitulo": "Resultados esperados",
+
+      "resultado": "As empresas passam a ter maior eficiência operacional, redução de desperdícios, aumento de desempenho industrial e operações mais seguras e sustentáveis."
+    }
+  ],
+ "solucoes": [
+  {
+    "titulo": "Exploração Offshore",
+    "descricao": "Tecnologia avançada para operações marítimas."
+  },
+
+  {
+    "titulo": "Refino Inteligente",
+    "descricao": "Processos modernos de refino e eficiência."
+  }
+]
+}

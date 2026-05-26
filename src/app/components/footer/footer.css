@@ -1,0 +1,95 @@
+footer {
+  background: #bfc8da; 
+  /* Reduzido o espaçamento do topo de 80px para 40px para aproximar o logo da borda */
+  padding: 40px 20% 30px;
+  margin-top: 0px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-brand-column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 350px;
+  flex: 1.5;
+  min-width: 280px;
+}
+
+.footer-brand .logo-icon {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.footer-brand .logo-icon img {
+  width: 160px;
+  height: auto; 
+  object-fit: contain;
+  display: block;
+}
+
+.footer-brand h2 {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin: 0;
+  font-weight: 700;
+}
+
+.footer-links {
+  flex-direction: column;
+  gap: 40px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-contact {
+  flex: 1;
+  min-width: 200px;
+}
+
+footer h3 {
+  color: #316ba5;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer p,
+footer li {
+  color: #2f4b74;
+  line-height: 1.8;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #386099;
+  transition: all 0.3s ease;
+}
+
+footer a:hover {
+  color: #2f4b74; 
+  padding-left: 4px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
