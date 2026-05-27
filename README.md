@@ -45,6 +45,10 @@ API fake:
 http://localhost:3000
 ```
 
-## Autor
+## Autores
 
-Antonio Donizete de Oliveira Junior
+Antonio Donizete de Oliveira Junior RA 28321153
+
+Thays Pereira dos Santos RA 28323717
+
+Naiane Vitoria Batista Ximenes RA 28326741
